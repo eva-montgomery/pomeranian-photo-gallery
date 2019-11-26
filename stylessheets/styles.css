@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+}
+.parent-images {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+}
